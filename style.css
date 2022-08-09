@@ -2,9 +2,32 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.first-section {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
 }
 
 img {
-    max-width: 480px;
+    max-width: 400px;
     height: auto;
 }
